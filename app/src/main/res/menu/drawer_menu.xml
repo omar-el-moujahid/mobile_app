@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single" android:background="@drawable/menu_background_selector" >
+        <item
+            android:id="@+id/menu_item_id"
+            app:actionLayout="@layout/menu_item_layout" />
+    <item
+        android:id="@+id/caftan"
+        app:actionLayout="@layout/foreachitem"
+        />
+    <item
+        android:id="@+id/babouche"
+        app:actionLayout="@layout/baboucheitem"
+         />
+    <item
+        android:id="@+id/djellaba"
+        app:actionLayout="@layout/djellabaitem"
+       />
+    <item
+        android:id="@+id/artisanat"
+        app:actionLayout="@layout/artisanatitem"
+        />
+</group>
+</menu>

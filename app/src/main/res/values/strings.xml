@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">WelcomeApp</string>
+    <string name="QUICKSHIP">QUICKSHIP</string>
+    <string name="best">Des best-sellers de l\'automne</string>
+    <string name="promotion">JUSQU\'AU -50%</string>
+    <string name="traditions">Our traditions</string>
+    <string name="phrase">Tradition et style, tout dans la paume de votre main</string>
+    <string name="phrase1">les plus populaires sont achetés maintenant</string>
+    <string name="phrase2"> Nouveautés de semaines  Profiter de nos produits</string>
+    <string name="Madame">Pour vous Madame ...</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string-array name="spinner_items">
+        <item>Tous</item>
+        <item>Noir</item>
+        <item>Violet</item>
+        <item>Blan</item>
+    </string-array>
+    <string-array name="spinner_tissus">
+        <item>Tous</item>
+        <item>dentel</item>
+        <item>moubra</item>
+        <item>soie</item>
+    </string-array>
+    <string-array name="spinner_motif">
+        <item>Tous</item>
+        <item>dentel</item>
+        <item>moubra</item>
+        <item>soie</item>
+    </string-array>
+    <string-array name="spinner_taille">
+        <item>Tous</item>
+        <item>XXS</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+
+
+    <string-array name="spinner_pointure">
+        <item>Tous</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.WelcomeApp" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.WelcomeApp" parent="Base.Theme.WelcomeApp" />
+    <style name="MenuItemTextStyle">
+   <item name="android:fontFamily">@font/fahkwang_extralight</item> <!-- Remplacez "votre_police" par le nom de votre police -->
+         <item name="android:textSize">21dp</item>
+    </style>
+
+    <style name="InputLayoutHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">#FFFFFF</item><!-- Couleur blanche -->
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766017626946",
+    "project_id": "traditionsapp-f1eb3",
+    "storage_bucket": "traditionsapp-f1eb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766017626946:android:e89850383bb3b637bcdedb",
+        "android_client_info": {
+          "package_name": "ma.ensaf.welcomeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WLFmeT5oCij1CibSVcTPTNv2PswptHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

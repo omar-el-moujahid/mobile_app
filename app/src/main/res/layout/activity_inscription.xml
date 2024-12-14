@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+
+    tools:context=".PageLogin">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarSize="8dp"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="#FFFFFF"
+
+            app:cursorColor="@color/white"
+            app:endIconMode="clear_text"
+            app:helperTextTextColor="#FFFFFF"
+            app:hintTextAppearance="@style/InputLayoutHint"
+            app:hintTextColor="#FAFAFA"
+            app:placeholderTextColor="#FBFBFB"
+            app:prefixTextColor="#FFFFFF"
+            app:startIconDrawable="@drawable/personne_blanc">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:drawableTint="#FFFFFF"
+                android:hint="Email"
+                android:inputType="text|textEmailAddress"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFAFA"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="#F6F6F6"
+
+            app:endIconMode="password_toggle"
+            app:helperTextTextColor="#FFFFFF"
+            app:hintTextColor="#FFFFFF"
+            app:placeholderTextColor="#FDFDFD"
+            app:prefixTextColor="#FFFFFF"
+            app:startIconDrawable="@drawable/baseline_lock_24"
+            app:suffixTextColor="#FFFFFF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pwd2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:drawableTint="#FBFBFB"
+                android:drawingCacheQuality="high"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="#F8F8F8"
+
+            app:endIconMode="password_toggle"
+            app:helperTextTextColor="#FFFFFF"
+            app:hintTextColor="#FFFFFF"
+            app:placeholderTextColor="#FFFFFF"
+            app:prefixTextColor="#FFFFFF"
+            app:startIconDrawable="@drawable/baseline_lock_24"
+            app:suffixTextColor="#FFFFFF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pwd"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:drawableTint="#FFFFFF"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                android:textColor="#FBFBFB"
+                android:textColorHint="#FBFBFB"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="S'inscrire"
+        android:textColor="#000000"
+        android:textColorHighlight="#C6B174"
+        android:textColorLink="#C6B174"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vous avez déja un compte"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="312dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/reem_kufi"
+        android:text=" Rejoignez-nous ,pour découvrir nos contenus complets"
+        android:textColor="#FDF9F9"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Forme pour la bordure du haut -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dp"
+                android:color="#A5A3A3" /> <!-- Couleur et épaisseur de la bordure -->
+        </shape>
+    </item>
+
+    <!-- Forme pour la bordure du bas -->
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dp"
+                android:color="#A5A3A3" /> <!-- Couleur et épaisseur de la bordure -->
+        </shape>
+    </item>
+
+</layer-list>
